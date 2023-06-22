@@ -1,0 +1,52 @@
+.header_container {
+  height: 125px;
+  margin: 0 75px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: aqua;
+}
+
+.header_title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.clr_red {
+  color: #ff5a6b;
+}
+
+.clr_yellow {
+  color: #eeb213;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_container > .btn:not(:last-child) {
+  margin-right: 50px;
+}
+
+.btn {
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #ff5a6b;
+}
