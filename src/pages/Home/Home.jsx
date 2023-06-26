@@ -9,11 +9,15 @@ function Home() {
     <div className={styles.home_container}>
       <div className={styles.greeting}>Hi!</div>
       <div className={styles.intro}>
-        I am <span className={styles.clr_red}>Ana</span>. Freshly gratuated{" "}
-        <span className={styles.clr_yellow}>Front-end Developer</span>.
+        I am
+        <button className={styles.btn} onClick={() => navigate("/about")}>
+          Ana
+        </button>
+        . Freshly gratuated
+        <span className={styles.clr_yellow}> Front-end Developer</span>.
       </div>
       <div className={styles.work}>
-        Check out my{" "}
+        Check out my
         <button className={styles.btn} onClick={() => navigate("/work")}>
           work
         </button>
