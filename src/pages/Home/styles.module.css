@@ -1,0 +1,52 @@
+.home_container {
+  margin: 50px 75px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 35px;
+  font-weight: 600;
+}
+
+.greeting {
+  font-size: 7rem;
+}
+
+.intro {
+  font-size: 2.7rem;
+  margin-left: 150px;
+}
+
+.clr_red {
+  color: #ff5a6b;
+  font-size: 3.5rem;
+}
+
+.clr_yellow {
+  color: #eeb213;
+  font-size: 3.5rem;
+}
+
+.work {
+  font-size: 3.5rem;
+  margin-left: 50px;
+}
+
+.btn {
+  border: none;
+  background: none;
+  font-size: 4.2rem;
+  font-weight: 600;
+  color: #ff5a6b;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #ff5a6b;
+}
+
+.contact {
+  font-size: 2rem;
+  margin-left: 400px;
+}
