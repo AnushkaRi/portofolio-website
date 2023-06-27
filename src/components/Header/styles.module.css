@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
+  border-bottom: #000000 solid 5px;
 }
 
 .header_title {
@@ -37,7 +38,7 @@
 .btn {
   border: none;
   background: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #000000;
   letter-spacing: 0.1rem;

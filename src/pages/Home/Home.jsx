@@ -14,7 +14,13 @@ function Home() {
           Ana
         </button>
         . Freshly gratuated
-        <span className={styles.clr_yellow}> Front-end Developer</span>.
+        <span className={styles.clr_yellow}> Front-end Developer</span>
+        <span className={styles.little}>
+          {" "}
+          <br />
+          and <span className={styles.clr_yellow}>illustrator</span> in my free
+          time.
+        </span>
       </div>
       <div className={styles.work}>
         Check out my
@@ -24,7 +30,14 @@ function Home() {
         .
       </div>
       <div className={styles.contact}>
-        And feel free to <span className={styles.clr_yellow}>contact</span> me.
+        And feel free to{" "}
+        <button
+          className={styles.btn}
+          onClick={() => (window.location = "mailto:ana.dejanovich@gmail.com")}
+        >
+          contact
+        </button>{" "}
+        me.
       </div>
     </div>
   );

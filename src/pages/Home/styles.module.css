@@ -1,5 +1,5 @@
 .home_container {
-  margin: 50px 75px;
+  margin: 25px 75px;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -14,7 +14,10 @@
 
 .intro {
   font-size: 2.5rem;
-  margin-left: 150px;
+}
+
+.little {
+  font-size: 1.5rem;
 }
 
 .clr_red {
@@ -25,6 +28,10 @@
 .clr_yellow {
   color: #eeb213;
   font-size: 3.5rem;
+}
+
+.little .clr_yellow {
+  font-size: 1.5rem;
 }
 
 .work {
@@ -68,4 +75,17 @@
 .contact {
   font-size: 2rem;
   margin-left: 400px;
+}
+
+.contact .btn {
+  color: #eeb213;
+  font-size: 3rem;
+}
+
+.contact .btn:hover {
+  color: #eeb213;
+}
+
+.contact .btn::before {
+  background-color: #eeb213;
 }
