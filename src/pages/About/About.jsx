@@ -1,3 +1,5 @@
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+
 import styles from "./styles.module.css";
 import photo from "../../assets/AD_Logo.jpg";
 
@@ -16,6 +18,34 @@ function About() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div className={styles.icons_container}>
+          <div className={styles.icon}>
+            <a
+              href="https://github.com/AnushkaRi"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillGithub size={40} color="#eeb213" />
+            </a>
+          </div>
+          <div className={styles.icon}>
+            <a
+              href="https://www.linkedin.com/in/ana-dejanovic/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillLinkedin size={40} color="#eeb213" />
+            </a>
+          </div>
+          <div
+            className={styles.icon}
+            onClick={() =>
+              (window.location = "mailto:ana.dejanovich@gmail.com")
+            }
+          >
+            <AiOutlineMail size={40} />
+          </div>
         </div>
       </div>
       <img src={photo}></img>

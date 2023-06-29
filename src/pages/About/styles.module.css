@@ -5,11 +5,6 @@
   margin: 25px 75px;
 }
 
-.about_container img {
-  height: 600px;
-  width: 600px;
-}
-
 .about_info {
   margin-right: 100px;
 }
@@ -23,4 +18,21 @@
 
 .clr_red {
   color: #ff5a6b;
+}
+
+.icons_container {
+  color: #eeb213;
+  display: flex;
+  flex-flow: row;
+  margin-top: 40px;
+}
+
+.icon {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.about_container img {
+  height: 600px;
+  width: 600px;
 }
