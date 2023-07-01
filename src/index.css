@@ -10,9 +10,8 @@ body {
   font-family: "Geologica", sans-serif;
   color: #000000;
   background-color: #ffffff;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  overscroll-behavior: contain;
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 100%;
   margin: 0 100px;
 }

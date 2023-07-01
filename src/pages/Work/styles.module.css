@@ -2,12 +2,8 @@
   display: grid;
   grid-gap: 5px;
   justify-content: center;
-  grid: repeat(3, 200px) / repeat(4, 200px);
-  margin: 75px auto;
-}
-
-.work_container div {
-  background-color: aquamarine;
+  grid: repeat(4, 200px) / repeat(4, 200px);
+  margin: 25px auto;
 }
 
 .radio {
@@ -57,4 +53,30 @@
   background-image: url(../../assets/weather.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.work_container div {
+  opacity: 1;
+}
+
+.work_container div:hover {
+  opacity: 0.3;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-ou;
+}
+
+.img_description {
+  visibility: hidden;
+}
+
+.work_container div:hover .img_description {
+  visibility: visible;
+  transition-delay: 0s;
+  transition-duration: 0.55s;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  top: 35%;
 }
