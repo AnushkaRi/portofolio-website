@@ -6,6 +6,7 @@ import Layout from "./pages/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Work from "./pages/Work/Work";
 import About from "./pages/About/About";
+import Radio from "./pages/Radio/Radio";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       {
         path: "/work",
         element: <Work />,
+        children: [{ path: "/work/radio", element: <Radio /> }],
       },
       {
         path: "/about",

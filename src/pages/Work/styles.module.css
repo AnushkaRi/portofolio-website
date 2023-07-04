@@ -7,74 +7,82 @@
 }
 
 .radio {
+  position: relative;
   grid-area: 1 / 1 / span 2 / span 2;
-  background-image: url(../../assets/Radio.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.radio img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
 }
 
 .pig_dice {
+  position: relative;
   grid-area: 1/3;
-  background-image: url(../../assets/PigDice.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .todo {
+  position: relative;
   grid-area: 1/4;
-  background-image: url(../../assets/toDo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .world_clock {
+  position: relative;
   grid-area: 2/3;
-  background-image: url(../../assets/WorldClock.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .blackjack {
+  position: relative;
   grid-area: 2/4;
-  background-image: url(../../assets/Blackjack.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .chat {
+  position: relative;
   grid-area: 3 / 1 / span 3 / span 3;
-  background-image: url(../../assets/Chat.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.chat img {
+  position: absolute;
+  width: 600px;
+  height: 400px;
 }
 
 .weather {
+  position: relative;
   grid-area: 3/4;
-  background-image: url(../../assets/weather.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.work_container div {
+.pig_dice img,
+.todo img,
+.world_clock img,
+.blackjack img,
+.weather img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.work_container div img {
   opacity: 1;
 }
 
-.work_container div:hover {
+.work_container div img:hover {
   opacity: 0.3;
-  transition: opacity 0.55s ease-in-out;
-  -moz-transition: opacity 0.55s ease-in-out;
-  -webkit-transition: opacity 0.55s ease-in-ou;
+  transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
 }
 
-.img_description {
+.title {
   visibility: hidden;
 }
 
-.work_container div:hover .img_description {
+.work_container div:hover .title {
   visibility: visible;
   transition-delay: 0s;
   transition-duration: 0.55s;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
   position: relative;
