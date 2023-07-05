@@ -3,9 +3,11 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-size: 1rem;
 }
+
 body {
   font-family: "Geologica", sans-serif;
   color: #000000;
@@ -14,4 +16,20 @@ body {
   overflow: auto;
   min-height: 100%;
   margin: 0 100px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eeb213;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eeb213;
 }

@@ -7,6 +7,12 @@ import Home from "./pages/Home/Home";
 import Work from "./pages/Work/Work";
 import About from "./pages/About/About";
 import Radio from "./pages/Radio/Radio";
+import Blackjack from "./pages/Blackjack/Blackjack";
+import PigDice from "./pages/PigDice/PigDice";
+import WorldClock from "./pages/WorldClock/WorldClock";
+import ToDo from "./pages/ToDo/ToDo";
+import Chat from "./pages/Chat/Chat";
+import Weather from "./pages/Weather/Weather";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -20,11 +26,38 @@ const router = createBrowserRouter([
       {
         path: "/work",
         element: <Work />,
-        children: [{ path: "/work/radio", element: <Radio /> }],
       },
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/radio",
+        element: <Radio />,
+      },
+      {
+        path: "/pigdice",
+        element: <PigDice />,
+      },
+      {
+        path: "/worldclock",
+        element: <WorldClock />,
+      },
+      {
+        path: "/todo",
+        element: <ToDo />,
+      },
+      {
+        path: "/chat",
+        element: <Chat />,
+      },
+      {
+        path: "/blackjack",
+        element: <Blackjack />,
+      },
+      {
+        path: "/weather",
+        element: <Weather />,
       },
     ],
   },
