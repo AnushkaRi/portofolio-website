@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 25px 75px;
+  display: flex;
+  flex-flow: row;
+}
+
+.image_wrapper {
+  margin-right: 75px;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ff5a6b;
+}
+
+.image_wrapper img {
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.text_wrapper {
+  margin-top: 60px;
+}
+
+.text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.tech {
+  color: #ff5a6b;
+  margin-bottom: 40px;
+}
+
+.link a {
+  color: #eeb213;
+  text-decoration: none;
+}
