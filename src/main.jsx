@@ -8,7 +8,6 @@ import Work from "./pages/Work/Work";
 import About from "./pages/About/About";
 import Radio from "./pages/Radio/Radio";
 import Blackjack from "./pages/Blackjack/Blackjack";
-import PigDice from "./pages/PigDice/PigDice";
 import WorldClock from "./pages/WorldClock/WorldClock";
 import ToDo from "./pages/ToDo/ToDo";
 import Chat from "./pages/Chat/Chat";
@@ -34,10 +33,6 @@ const router = createBrowserRouter([
       {
         path: "/radio",
         element: <Radio />,
-      },
-      {
-        path: "/pigdice",
-        element: <PigDice />,
       },
       {
         path: "/worldclock",

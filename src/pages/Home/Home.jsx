@@ -16,7 +16,6 @@ function Home() {
         . Freshly gratuated
         <span className={styles.clr_yellow}> Front-end Developer</span>
         <span className={styles.little}>
-          {" "}
           <br />
           and <span className={styles.clr_yellow}>illustrator</span> in my free
           time.

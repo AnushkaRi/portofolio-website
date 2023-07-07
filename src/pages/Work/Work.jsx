@@ -3,7 +3,6 @@ import { Outlet } from "react-router-dom";
 
 import styles from "./styles.module.css";
 import Radio from "../../assets/Radio.png";
-import PigDice from "../../assets/PigDice.png";
 import WorldClock from "../../assets/WorldClock.png";
 import ToDo from "../../assets/toDo.png";
 import Blackjack from "../../assets/Blackjack.png";
@@ -19,10 +18,6 @@ function Work() {
         <div className={styles.radio} onClick={() => navigate("/radio")}>
           <img className={styles.img} src={Radio} />
           <p className={styles.title}>Radio Surfer Rosa</p>
-        </div>
-        <div className={styles.pig_dice} onClick={() => navigate("/pigdice")}>
-          <img className={styles.img} src={PigDice} />
-          <p className={styles.title}>Pig Dice Game</p>
         </div>
         <div
           className={styles.world_clock}
