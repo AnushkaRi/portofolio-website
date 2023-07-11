@@ -11,13 +11,25 @@ function About() {
           <span className={styles.clr_red}>ABOUT </span>ANA DEJANOVIĆ
         </div>
         <div className={styles.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          <p>
+            I am Ana, Rijeka-based junior Front-end Developer with an affinity
+            for design & user experience.
+          </p>{" "}
+          <p>
+            Prior to transitioning into web development I was working as an
+            engineer mostly in civil and naval engineering sector.
+          </p>{" "}
+          <p>
+            I spend my free time doing illustrations, nurturing my urban garden
+            and hiking with my daughter and dog. I like utopain books, SF movies
+            & enjoy taking analogue photographs. And recently I discovered a
+            passion for programming languages.
+          </p>{" "}
+          <p>
+            As a developer, I value simple content structure, clean design
+            patterns combined with thoughtful animations & transitions to
+            maximize user experience.
+          </p>
         </div>
         <div className={styles.icons_container}>
           <div className={styles.icon}>

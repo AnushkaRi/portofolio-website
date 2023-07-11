@@ -1,6 +1,5 @@
 import PageTemplate from "../../components/Header/PageTemplate/PageTemplate";
 import WeatherDesktop from "../../assets/Weather/Weather_Desktop.png";
-import WeatherMobile from "../../assets/Weather/Weather_Mobile.png";
 
 function Weather() {
   return (
@@ -8,7 +7,6 @@ function Weather() {
       <PageTemplate
         title="WEATHER APP"
         imgUrl_1={WeatherDesktop}
-        imgUrl_2={WeatherMobile}
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut
