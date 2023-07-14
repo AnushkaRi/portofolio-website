@@ -7,11 +7,8 @@ function Blackjack() {
       <PageTemplate
         title="BLACKJACK GAME"
         imgUrl_1={BlackJackPhoto}
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat."
-        tech="HTML, CSS and Vanilla JS, "
+        text="Famous BlackJack Game with Seinfeld characters."
+        tech="HTML, CSS and Vanilla JS"
         link="https://github.com/AnushkaRi/blackjack-game"
       />
     </div>

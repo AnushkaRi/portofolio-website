@@ -7,11 +7,8 @@ function Weather() {
       <PageTemplate
         title="WEATHER APP"
         imgUrl_1={WeatherDesktop}
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat."
-        tech="HTML, CSS and Vanilla JS, "
+        text="Weather app is a simple and responsive application where you can see current weather for city of your choice. <br/> Choose how to set your city search, with help of autocomplete functionality or you can just click the &#34;Get Your Location&#34; button for getting you current location."
+        tech="React, CSS, OpenWeather API and RapidAPI - Geo DB Cities."
         link="https://github.com/AnushkaRi/weather-app"
       />
     </div>
