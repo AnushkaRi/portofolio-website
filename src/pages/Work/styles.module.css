@@ -15,6 +15,7 @@
   position: absolute;
   width: 400px;
   height: 400px;
+  cursor: pointer;
 }
 
 .weather {
@@ -46,6 +47,7 @@
   position: absolute;
   width: 600px;
   height: 400px;
+  cursor: pointer;
 }
 
 .todo img,
@@ -55,6 +57,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
+  cursor: pointer;
 }
 
 .work_container div img {

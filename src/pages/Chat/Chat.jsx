@@ -9,10 +9,7 @@ function Chat() {
         title="BLACKJACK GAME"
         imgUrl_1={LoginPhoto}
         imgUrl_2={ChatPhoto}
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat."
+        text_1="For my final project at Front-end Developer Course at Algebra College, I made this straightforward chat application."
         tech="HTML, CSS and Vanilla JS, "
         link="https://github.com/AnushkaRi/chat-app"
       />
