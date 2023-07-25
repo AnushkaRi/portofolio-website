@@ -9,8 +9,9 @@ function Chat() {
         title="BLACKJACK GAME"
         imgUrl_1={LoginPhoto}
         imgUrl_2={ChatPhoto}
-        text_1="For my final project at Front-end Developer Course at Algebra College, I made this straightforward chat application."
-        tech="HTML, CSS and Vanilla JS, "
+        text_1="My final project in Front-end Developer Course at Algebra College was to make a chat application with React."
+        text_2="You can register with your desired username and chat with other folks under the neon lights."
+        tech="React, Redux, Router and Scaledrone"
         link="https://github.com/AnushkaRi/chat-app"
       />
     </div>

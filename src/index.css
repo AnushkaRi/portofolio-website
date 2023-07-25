@@ -33,3 +33,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #eeb213;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    margin: 0 20px;
+  }
+}

@@ -20,11 +20,6 @@
   font-size: 1.3rem;
 }
 
-.clr_red {
-  color: #ff5a6b;
-  font-size: 3.5rem;
-}
-
 .clr_yellow {
   color: #eeb213;
   font-size: 3.5rem;
@@ -88,4 +83,40 @@
 
 .contact .btn::before {
   background-color: #eeb213;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .greeting {
+    font-size: 5rem;
+  }
+
+  .intro {
+    font-size: 1.8em;
+  }
+
+  .little {
+    font-size: 1rem;
+  }
+
+  .clr_yellow {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+
+  .work {
+    font-size: 2.5rem;
+    margin-left: 0px;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+    margin-left: 0px;
+  }
+
+  .contact .btn {
+    font-size: 3rem;
+  }
 }
