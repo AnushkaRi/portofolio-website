@@ -38,3 +38,34 @@
   color: #eeb213;
   text-decoration: none;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .wrapper {
+    margin: 25px 45px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .image_wrapper {
+    margin-right: 0px;
+  }
+
+  .image_wrapper img {
+    width: 280px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .text_wrapper {
+    margin-top: 20px;
+  }
+
+  .text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+}
