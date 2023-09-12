@@ -1,7 +1,7 @@
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 import styles from "./styles.module.css";
-import photo from "../../assets/AD_Logo.jpg";
+import photo from "../../assets/Photo.jpg";
 
 function About() {
   return (

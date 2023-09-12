@@ -33,8 +33,8 @@
 }
 
 .about_container img {
-  height: 600px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -49,7 +49,6 @@
   }
 
   .about_container img {
-    height: 250px;
-    width: 200px;
+    display: none;
   }
 }
