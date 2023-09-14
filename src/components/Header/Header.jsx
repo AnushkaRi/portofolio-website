@@ -12,7 +12,10 @@ function Header() {
         <span className={styles.clr_yellow}>DEJANOVIĆ</span>
       </div>
       <div className={styles.btn_container}>
-        <button className={styles.btn} onClick={() => navigate("/")}>
+        <button
+          className={styles.btn}
+          onClick={() => navigate("/portofolio-website")}
+        >
           Home
         </button>
         <button className={styles.btn} onClick={() => navigate("/work")}>
