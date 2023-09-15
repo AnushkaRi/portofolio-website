@@ -34,7 +34,7 @@
 
 .about_container img {
   height: 400px;
-  width: 400px;
+  width: 600px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
