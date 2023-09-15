@@ -2,12 +2,12 @@ import { useNavigate } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 
 import styles from "./styles.module.css";
-import Radio from "../../assets/Radio.png";
-import WorldClock from "../../assets/WorldClock.png";
-import ToDo from "../../assets/toDo.png";
-import Blackjack from "../../assets/Blackjack.png";
-import Chat from "../../assets/Chat.png";
-import Weather from "../../assets/weather.png";
+import Radio from "../../assets/Grid/Radio.png";
+import WorldClock from "../../assets/Grid/WorldClock.png";
+import ToDo from "../../assets/Grid/toDo.png";
+import Blackjack from "../../assets/Grid/Blackjack.png";
+import Chat from "../../assets/Grid/Chat.png";
+import Weather from "../../assets/Grid/weather.png";
 
 function Work() {
   const navigate = useNavigate();

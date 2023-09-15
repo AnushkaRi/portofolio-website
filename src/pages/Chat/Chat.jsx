@@ -1,4 +1,4 @@
-import PageTemplate from "../../components/Header/PageTemplate/PageTemplate";
+import PageTemplate from "../../components/PageTemplate/PageTemplate";
 import LoginPhoto from "../../assets/Chat/Login.png";
 import ChatPhoto from "../../assets/Chat/Chat.png";
 

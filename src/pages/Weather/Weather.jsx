@@ -1,4 +1,4 @@
-import PageTemplate from "../../components/Header/PageTemplate/PageTemplate";
+import PageTemplate from "../../components/PageTemplate/PageTemplate";
 import WeatherDesktop from "../../assets/Weather/Weather_Desktop.png";
 
 function Weather() {

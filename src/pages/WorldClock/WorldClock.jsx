@@ -1,4 +1,4 @@
-import PageTemplate from "../../components/Header/PageTemplate/PageTemplate";
+import PageTemplate from "../../components/PageTemplate/PageTemplate";
 import WorldClockPhoto from "../../assets/WorldClock/WorldClock.png";
 
 function WorldClock() {

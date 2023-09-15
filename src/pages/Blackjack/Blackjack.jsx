@@ -1,4 +1,4 @@
-import PageTemplate from "../../components/Header/PageTemplate/PageTemplate";
+import PageTemplate from "../../components/PageTemplate/PageTemplate";
 import BlackJackPhoto from "../../assets/Blackjack/Blackjack.png";
 
 function Blackjack() {
