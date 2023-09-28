@@ -14,6 +14,7 @@
 
 .intro {
   font-size: 2.3rem;
+  margin-left: 100px;
 }
 
 .little {
@@ -31,7 +32,7 @@
 
 .work {
   font-size: 3.3rem;
-  margin-left: 50px;
+  margin-left: 200px;
 }
 
 .btn {
@@ -112,11 +113,15 @@
 
   .work {
     font-size: 2.5rem;
-    margin-left: 0px;
   }
 
   .contact {
     font-size: 1.5rem;
-    margin-left: 0px;
   }
+}
+
+.intro,
+.work,
+.contact {
+  margin-left: 0px;
 }

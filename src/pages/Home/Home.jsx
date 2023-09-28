@@ -13,12 +13,12 @@ function Home() {
         <button className={styles.btn} onClick={() => navigate("/about")}>
           Ana
         </button>
-        . Freshly gratuated
+        , a junior
         <span className={styles.clr_yellow}> Front-end Developer</span>
         <span className={styles.little}>
           <br />
-          and <span className={styles.clr_yellow}>illustrator</span> in my free
-          time.
+          and an <span className={styles.clr_yellow}>Illustrator</span> in my
+          free time.
         </span>
       </div>
       <div className={styles.work}>
